@@ -47,7 +47,7 @@ def bayes(b_given_a, a, b):
     return (b_given_a * a)/b
 ```
 
-# #2 Is it spam?
+# #2 You've Got Mail!
 
 **📩You receive an email and your spam detector has classified the email as spam.📩** 
 
@@ -99,7 +99,7 @@ test.run_test(a_given_b, 'spam')
 ✅ **Hey, you did it.  Good job.**
 
 
-# #3 Will it rain?
+# #3 Weather Weather Weather
 
 <img src="images/clouds.png">
 
@@ -150,7 +150,7 @@ test.run_test(a_given_b, 'rain')
 ✅ **Hey, you did it.  Good job.**
 
 
-# #4 Who's the father?
+# #4 Parenthood
 
 You are on a jury considering a paternity suit.  The mother has blood type O, and the alleged father has blood type AB.
 
