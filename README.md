@@ -77,7 +77,7 @@ a_given_b = bayes(b_given_a, a, b)
 # Your code here
 b_given_a = .99
 a = .05
-b = b_given_a * a + .003 * .95
+b = b_given_a * a + .002 * (1-a)
 a_given_b = bayes(b_given_a, a, b)
 ```
 
@@ -129,7 +129,7 @@ a_given_b = bayes(b_given_a, a, b)
 # Your code here
 b_given_a = .95
 a = .3
-b = .95 * .3 + .25 * .7
+b = .95 * .3 + .25 * (1-a)
 a_given_b = bayes(b_given_a, a, b)
 ```
 
@@ -175,7 +175,7 @@ a_given_b = bayes(b_given_a, a, b)
 # Your code here
 b_given_a = .5
 a = .75
-b = b_given_a * a + .09 * (1-.75)
+b = b_given_a * a + .09 * (1-a)
 a_given_b = bayes(b_given_a, a, b)
 ```
 
