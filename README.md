@@ -23,7 +23,7 @@ from test import Test
 test = Test()
 ```
 
-# #1
+# #1 Write a function
 
 <u><b>Define a function called ```bayes``` that receive 3 parameters:</b></u>
 1. b_given_a
@@ -47,9 +47,9 @@ def bayes(b_given_a, a, b):
     return (b_given_a * a)/b
 ```
 
-# #2
+# #2 Is it spam?
 
-**You receive an email and your spam detector has classified the email as spam.** 
+**📩You receive an email and your spam detector has classified the email as spam.📩** 
 
 Assume that: 
 - 5% of emails you receive are spam 
@@ -99,13 +99,20 @@ test.run_test(a_given_b, 'spam')
 ✅ **Hey, you did it.  Good job.**
 
 
-# #3
+# #3 Will it rain?
 
-It's a typically hot morning in June in Durham.  You look outside and see some dark clouds rolling in.  Is it going to rain?
+<img src="images/clouds.png">
 
-Historically, there is a 30% chance of rain on any given day in June.  Furthermore, on days when it does in fact rain, 95% of the time there are dark clouds that roll in during the morning.   But, on days when it does not rain, 25% of the time there are dark clouds that roll in during the morning.
+<u><b>☁️You wake up and the sky is cloudy☁️</b></u>
 
-Given that there are dark clouds rolling in, what is the chance that it will rain?
+- There is a 30% chance of it raining on any given day 💧
+- On days when it rains there is a 95% chance of it being cloudy 🌧️
+- On days when it does not rain, 25% of the time there are dark clouds in the sky.
+
+<u><b>What is the probability that it will rain?</b></u>
+
+<img src="images/clouds.png">
+
 
 
 ```python
@@ -143,7 +150,7 @@ test.run_test(a_given_b, 'rain')
 ✅ **Hey, you did it.  Good job.**
 
 
-# #4
+# #4 Who's the father?
 
 You are on a jury considering a paternity suit.  The mother has blood type O, and the alleged father has blood type AB.
 
