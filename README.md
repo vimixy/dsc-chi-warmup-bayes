@@ -1,12 +1,9 @@
-
 # Practice with Bayes
-
-![]() ![]()
 
 
 Thomas Bayes           |  Bayes Theorum
 :-------------------------:|:-------------------------:
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Thomas_Bayes.gif/225px-Thomas_Bayes.gif)  |  ![](https://lh3.googleusercontent.com/proxy/0s1DMC6OW-58QzKUEEuVuhM3vW7aZivHikobieoN1vgMxSB-1qNbKdvcOsLd7G6UJE0iMKPPYYUeo1dgSHoT6HZtibPGrJXF3_NAjrI5uZPv2YJWJHmzPdZaq_uUnZs)
+![](images/thom-bayes.gif)  |  ![](images/bayes.png)
 
 
 ```python
